@@ -1,0 +1,55 @@
+All questions are optional, though try to answer at least 4. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: Using the plus one or minus one helper methods that can help finding the first and last item index. Also writing generally clearer code.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A:I copied the arrays manually using pointer manipulation, without relying on the arrayCopy method. I’m also proud of the way I implemented this class, as the project structure I used is one I thought of independently prior to learning about it in lecture. 
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: I copied the arrays manually (utilizing pointer manipulation), which may have potentially resulted in a performance error (code took too long for N number of items)
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A:That arrayCopy existed, and that we could rely on it to copy the arrays. I also wish I was more comfortable with the generic items in java. 
+
+Q: If you wrote ArrayDeque again, what would you do differently, if anything?
+
+A: I would utilize helper methods more often to make the code cleaner, and I would resize the arrays properly when sizing down.
+
+-----
+
+LinkedListDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: I did not have a “previous” variable in my Node class. As such, accessing the final element in my lists was more tedious.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: I felt proud once the circular linked list was properly implemented, and  when I succeeded in implementing the methods using the circularly linked list. I also felt proud along the way, seeing the number of failing tests decrease with time is a truly wonderful feeling.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: I did not have a previous instance variable in my node class, so to access the final node in a list, I was forced to traverse the entire list. 
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A: I assume you meant to ask for LinkedListDeque. I wish I knew more about the circular linked list data structure and generics in java before starting this project. 
+
+Q: If you wrote LinkedListDeque again, what would you do differently, if anything?
+
+A: I would have a previous variable in my node class, and I would use create and utilize helper methods when possible. 
+
+-----
+
+Meta:
+
+Q: This is the first time we've tried something like this. Did you like this design review process? Anything we should do differently next time?
+
+A: No, the review process is fine. Maybe something prettier, but functionality is fine. 
